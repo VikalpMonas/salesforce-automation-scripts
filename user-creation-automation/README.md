@@ -2,19 +2,47 @@
 
 ## Overview
 
-Automation script for creating Salesforce users with predefined roles, profiles, and permissions.
+This project automates Salesforce user provisioning using Salesforce CLI and automation scripts executed from VS Code.
 
-## Features
+The utility simplifies user onboarding by dynamically creating users with predefined profiles, roles, and permission sets.
 
-- Automated user provisioning
-- Standardized role/profile assignment
-- Reduced manual onboarding effort
+---
 
-## Note
+# 🚀 Features
 
-This is a simplified demo implementation created for portfolio purposes. Sensitive organization-specific configurations have been removed.
+- Automated Salesforce user creation
+- Persona-based configuration
+- Dynamic profile and role assignment
+- Permission set assignment
+- CSV export for created users
+- Salesforce CLI integration
 
-## Technologies Used
+---
 
-- Salesforce Administration
-- Automation Script
+# 🛠 Technologies Used
+
+- JavaScript
+- Salesforce CLI (SFDX)
+- Apex
+- VS Code
+- Node.js
+
+---
+
+# 📂 Project Structure
+
+- `config/` → Persona and user configuration
+- `scripts/` → Automation scripts
+- `sample-output/` → Generated CSV and terminal output
+- `docs/` → Setup and execution guide
+
+---
+
+# ⚙️ Setup Guide
+
+## 1️⃣ Authorize Salesforce Org
+
+Run the following command:
+
+```bash
+sf org login web --alias demo-org

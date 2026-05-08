@@ -1,0 +1,10 @@
+Select Country: USA
+Select Persona: Sales Admin
+How many users? 2
+
+🚀 Creating Salesforce users...
+
+✅ User Created: 005xx000001
+✅ User Created: 005xx000002
+
+✅ CSV file created: created_users.csv

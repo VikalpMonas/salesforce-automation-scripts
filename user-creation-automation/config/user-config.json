@@ -1,0 +1,27 @@
+{
+  "USA": {
+    "salesOrg": "1001",
+    "personas": {
+      "Sales Admin": {
+        "profile": "System Administrator",
+        "role": "Sales Manager",
+        "permissionSets": [
+          "Sales_Access",
+          "Reporting_Access"
+        ],
+        "locale": "en_US",
+        "languageLocale": "en_US"
+      },
+
+      "Sales Representative": {
+        "profile": "Standard User",
+        "role": "Sales Representative",
+        "permissionSets": [
+          "Sales_Access"
+        ],
+        "locale": "en_US",
+        "languageLocale": "en_US"
+      }
+    }
+  }
+}
