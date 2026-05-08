@@ -2,5 +2,7 @@
   "AccountController": ["AccountControllerTest"],
   "Maths": ["TestMaths"],
   "TVRemoteControl": ["TVRemoteControlTest"],
-  "UpdateAccountSubjectBatch": ["UpdateAccountSubjectBatchTest"]
+  "UpdateAccountSubjectBatch": ["UpdateAccountSubjectBatchTest"],
+  "AccountService": ["AccountServiceTest"],
+  "OpportunityService": ["OpportunityServiceTest"]
 }
